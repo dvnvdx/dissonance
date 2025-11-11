@@ -1,0 +1,27 @@
+{
+	"name": "dissonance",
+	"module": "src/index.ts",
+	"type": "module",
+	"private": true,
+	"devDependencies": {
+		"@eslint/js": "^9.39.1",
+		"@types/bun": "latest",
+		"eslint": "^9.39.1",
+		"eslint-config-prettier": "^10.1.8",
+		"eslint-plugin-prettier": "^5.5.4",
+		"globals": "^16.5.0",
+		"prettier": "^3.6.2",
+		"typescript-eslint": "^8.46.4",
+		"typescript-eslint-language-service": "^5.0.5"
+	},
+	"peerDependencies": {
+		"typescript": "^5.9.3"
+	},
+	"dependencies": {
+		"@sapphire/framework": "^5.4.0",
+		"@sapphire/plugin-subcommands": "^7.0.1",
+		"discord.js": "^14.24.2",
+		"lavalink-client": "^2.6.6",
+		"mongoose": "^8.19.3"
+	}
+}
